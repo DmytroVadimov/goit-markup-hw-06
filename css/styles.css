@@ -686,6 +686,10 @@ border-color: var(--act-link-txt);
     color: var(--act-link-txt);
 }
 
+.column-two {
+    margin-right: 93px;
+}
+
 .join-title {
     margin-bottom: 20px;
     
@@ -726,6 +730,68 @@ border-color: var(--act-link-txt);
 .join-social-icon {
     fill: var(--act-btn-txt);
 }
+
+.subscriber-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--act-btn-txt);
+}
+
+.subscriber {
+    display: flex;
+}
+
+.subscriber-field {
+    padding-left: 16px;
+    margin-right: 12px;
+
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: var(--sol-bcg);
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.subscriber-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--act-link-txt);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
+    color: var(--act-btn-txt);
+}
+
+/* .subscriber-button::before {
+    display: block;
+    content: "";
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--act-btn-txt);
+    background-image: url(../images/send.svg);
+    
+} */
+
+
+.subscriber-icon {
+    margin-left: 10px;
+    }
 
 .backdrop {
     position: fixed;
