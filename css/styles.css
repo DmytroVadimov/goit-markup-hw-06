@@ -899,7 +899,6 @@ border-color: var(--act-link-txt);
     transition: border-color var(--trnstn);
     }
 
-.injection-field:hover,
 .injection-field:focus {
     border-color: var(--act-link-txt);
 }
@@ -924,7 +923,6 @@ border-color: var(--act-link-txt);
     transition: fill var(--trnstn);
 }
 
-.injection-field:hover + .injection-icon,
 .injection-field:focus + .injection-icon {
     fill: var(--act-link-txt);
 }
@@ -941,7 +939,6 @@ border-color: var(--act-link-txt);
     transition: border-color var(--trnstn);
 }
 
-.injection-textarea:hover,
 .injection-textarea:focus {
     border-color: var(--act-link-txt);
 }
