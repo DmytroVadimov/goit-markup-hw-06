@@ -818,7 +818,7 @@ border-color: var(--act-link-txt);
     transform: translate(-50%, -50%) scale(0);
 }
 
-.modal {
+.modal {     
     padding: 40px;
     width: 528px;
     min-height: 581px;
@@ -870,10 +870,15 @@ border-color: var(--act-link-txt);
     letter-spacing: 0.03em;
     }
 
+.injection {
+    text-align: center;
+}
+
 .injection-label {
     display: block;
     margin-bottom: 4px;
 
+    text-align: left;
     font-weight: 400;
     font-size: 12px;
     line-height: calc(14/12);
@@ -930,7 +935,7 @@ border-color: var(--act-link-txt);
     color: rgba(117, 117, 117, 0.5);
 }
 
-.injection-policy {
+.injection-policy {    
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -941,7 +946,10 @@ border-color: var(--act-link-txt);
     margin-bottom: 30px;
 }
 
-.injection-button {        
+.injection-button {
+    display: inline-block;
+    text-align: center;
+
     width: 200px;
     height: 50px;
     border-radius: 4px;
