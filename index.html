@@ -381,9 +381,11 @@
         <label class="injection-label" for="injection-comment">Комментарий</label>
         <textarea class="injection-textarea" name="comment" id="injection-comment" placeholder="Введите текст"></textarea>
       </div>
-      <div class="modal-injection">
-        <label class="injection-policy" for="injection-policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-        <input class="injection-check" type="checkbox" name="policy" id="injection-policy">
+      <div class="modal-injection">        
+        <input class="injection-check" type="checkbox" name="policy" id="injection-conditions" value="true">
+        <label class="injection-policy" for="injection-conditions">Соглашаюсь с рассылкой и принимаю
+          <a class="injection-link" href="">Условия договора</a> 
+        </label>
       </div>
       <button class="injection-button" type="submit">Отправить</button>     
     </form>
