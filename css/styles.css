@@ -951,18 +951,43 @@ border-color: var(--act-link-txt);
     color: rgba(117, 117, 117, 0.5);
 }
 
-.injection-policy {      
+.injection-policy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+        
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     color: var(--hd-cont-txt);
 }
 
-.injection-check {
-    margin-bottom: 30px;
+.check-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 7px;
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--pas-txt);
+    border-radius: 2px;
 }
 
-.injection-button {    
+.check-icon {
+    fill: transparent;
+}
+
+.injection-check:checked + .injection-policy .check-box {
+    background-color: var(--act-link-txt);
+    border: none;
+}
+
+.injection-check:checked + .injection-policy .check-icon {
+    fill: var(--act-btn-txt);
+}
+
+.injection-button {
     width: 200px;
     height: 50px;
     border-radius: 4px;
