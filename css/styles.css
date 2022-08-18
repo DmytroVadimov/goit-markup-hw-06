@@ -992,6 +992,14 @@ border-color: var(--act-link-txt);
     fill: var(--act-btn-txt);
 }
 
+.injection-link {
+    transition: color var(--trnstn);
+}
+
+.injection-link:focus {
+    color: var(--act-link-txt);
+    }
+
 .injection-button {
     width: 200px;
     height: 50px;
