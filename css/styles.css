@@ -106,12 +106,9 @@ img {
     color: var(--act-link-txt);
 }
 
-.header-link.current {
-    color: var(--act-link-txt);
-    }
-
 .current {
     position: relative;
+    color: var(--act-link-txt);
 }
 
 .current::after {
